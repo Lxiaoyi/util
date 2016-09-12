@@ -109,7 +109,7 @@ public class DateUtil {
     /**
      * 获取给定日期所在周的星期一
      * */
-	public static Date getMonday(Date date) {
+    public static Date getMonday(Date date) {
 		Calendar cal = Calendar.getInstance();
 		cal.setTime(date);
 		int dayOfWeek = cal.get(Calendar.DAY_OF_WEEK);
@@ -151,7 +151,7 @@ public class DateUtil {
 	 * @param type y:年,M:月,D:日,H:小时,m:分钟,S:秒
 	 * @return
 	 */
-	public static int minusDate(Date date1, Date date2, Character type) {
+     public static int minusDate(Date date1, Date date2, Character type) {
 		Long timeMinus = date1.getTime() - date2.getTime();
 		Long result = -1L;
 		switch (type) {
@@ -179,7 +179,11 @@ public class DateUtil {
 		return result.intValue();
 	}
     
-	public static Date parseDate(String str, String[] parsePatterns) throws ParseException {
+     public static Date parseDate(String str, String[] parsePatterns) throws ParseException {
 		return DateUtil.parseDate(str, parsePatterns);
 	}
+	
+	
+	
+	
 }
