@@ -1,10 +1,3 @@
-package cn.thinkjoy.qky.xyzk.common;
-
-
-import cn.thinkjoy.qky.xyzk.domain.QkyCreateBaseDomain;
-import cn.thinkjoy.utils.DateUtil;
-import com.qtone.open.api.uic.dto.AccountDto;
-import com.qtone.open.service.ucm.context.UserContext;
 
 import javax.servlet.http.HttpServletRequest;
 import java.text.ParseException;
