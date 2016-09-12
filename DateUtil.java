@@ -7,11 +7,6 @@ import java.util.Date;
 
 /**
  * 日期,时间 工具类
- * <p/>
- * 创建时间: 15/12/23 下午10:42<br/>
- *
- * @author xule
- * @since v0.0.1
  */
 public class DateUtil {
 	public static String defaultDatePattern = "yyyy-MM-dd";
