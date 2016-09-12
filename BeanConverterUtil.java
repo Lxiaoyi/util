@@ -8,9 +8,6 @@ import java.util.Map;
  * map与bean互转
  * <p/>
  * 创建时间: 16/2/22<br/>
- *
- * @author xule
- * @since v0.0.1
  */
 public class BeanConverterUtil {
     /**
