@@ -6,11 +6,6 @@ import java.io.File;
 
 /**
  * 文件路径处理工具
- * <p/>
- * 创建时间: 16/1/12<br/>
- *
- * @author xule
- * @since v0.0.1
  */
 public class FilePathUtils {
 
