@@ -10,18 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.text.ParseException;
 import java.util.*;
 
-/**
- * Created by Edwin on 2016/6/1 0001.
- */
 public class CommonUtil {
-    public static int QUERY=0;
-    public static int ADD=1;
-    public static int DEL=2;
-    public static int UPDATE=3;
-
-
-    public static String[] opMsg={"查询","新增","删除","更新"};
-
 
     /**
      * 返回数据封装
