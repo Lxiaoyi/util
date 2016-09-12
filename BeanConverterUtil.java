@@ -1,4 +1,3 @@
-package cn.thinkjoy.utils;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
